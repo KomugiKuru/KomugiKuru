@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+a{
+    color: cornflowerblue;
+}
+img{
+    max-width: 70%;
+    height: auto;
+    display: block;
+}
