@@ -5,9 +5,16 @@ body{
 
 
 
+.content-box{
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
 
-
-a{
+p{
     color:rgb(163, 123, 70)
 }
 img{
@@ -16,5 +23,8 @@ img{
     display: block;
 }
 h1{
+    color:rgb(58, 97, 134)
+}
+a{
     color:rgb(58, 97, 134)
 }
