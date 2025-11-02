@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(250, 207, 222);
 }
 
 
@@ -23,6 +23,9 @@ img{
     display: block;
 }
 h1{
+    color:rgb(58, 97, 134)
+}
+h2{
     color:rgb(58, 97, 134)
 }
 a{
