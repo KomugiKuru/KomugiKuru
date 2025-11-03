@@ -58,3 +58,11 @@ a{
     border-radius: 15px;
     
 }
+.CS-box{
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
+    
+}
