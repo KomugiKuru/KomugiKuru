@@ -8,6 +8,15 @@ body{
     
 }
 
+@supports (font-family: "HarmonyOS Sans") {
+  body {
+    font-family: 
+      "Noto Sans JP",
+      "Source Han Sans",
+      "HarmonyOS Sans",
+      sans-serif !important;
+  }
+}
 .content-box{
     background-color: rgb(255, 255, 255);
     max-width: 500px;
