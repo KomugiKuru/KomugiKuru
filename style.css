@@ -40,6 +40,7 @@ p{
     display: block;
 }
 h1{
+    font-size: clamp(24px, 5vw, 32px);
     color:rgb(58, 97, 134)
 }
 h2{
