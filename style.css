@@ -2,9 +2,6 @@ body{
     background-color: antiquewhite;
 }
 
-
-
-
 .content-box{
     background-color: rgb(255, 255, 255);
     max-width: 500px;
@@ -17,7 +14,12 @@ body{
 p{
     color:rgb(163, 123, 70)
 }
-img{
+.illust{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.gazou{
     max-width: 20%;
     height: auto;
     display: block;
@@ -30,4 +32,13 @@ h2{
 }
 a{
     color:rgb(58, 97, 134)
+}
+
+.side-box{
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
+    
 }
