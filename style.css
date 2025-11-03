@@ -1,6 +1,11 @@
 body{
     background-color: antiquewhite;
-    font-family: "Meiryo", "メイリオ", sans-serif;
+    font-family: "Hiragino Sans", /* iOSサンセリフ */
+    "Hiragino Kaku Gothic ProN", /* iOSゴシック */
+    "Helvetica Neue", 
+    Arial, 
+    sans-serif; /* フォールバック */
+    
 }
 
 .content-box{
