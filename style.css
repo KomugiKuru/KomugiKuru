@@ -3,7 +3,7 @@ body{
     font-family: "Hiragino Sans", /* iOSサンセリフ */
     "Hiragino Kaku Gothic ProN", /* iOSゴシック */
     "Helvetica Neue", 
-    Arial, 
+    Arial, "Noto Sans CJK JP","Roboto",   /* Android標準 */   /* Android標準日本語 */
     sans-serif; /* フォールバック */
     
 }
