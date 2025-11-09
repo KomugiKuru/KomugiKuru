@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(201, 248, 229);
     font-family: "Hiragino Sans", /* iOSサンセリフ */
     "Hiragino Kaku Gothic ProN", /* iOSゴシック */
     "Helvetica Neue", 
@@ -8,7 +8,22 @@ body{
     
 }
 
+.sent{
+    text-align: center;
+}
 
+
+.imama{
+    display: none;
+}
+
+.bar{
+    position: fixed;
+    bottom: 20px;
+    left:50%;
+
+    backdrop-filter: blur(10px);
+}
 
 @supports (font-family: "HarmonyOS Sans") {
   body {
@@ -68,6 +83,8 @@ a{
     border-radius: 15px;
     
 }
+
+
 
 
 
