@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: #ffeff4;
     font-family: "Hiragino Sans", /* iOSサンセリフ */
     "Hiragino Kaku Gothic ProN", /* iOSゴシック */
     "Helvetica Neue", 
@@ -9,6 +9,49 @@ body{
 }
 
 
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.card {
+    background: white;
+    border-radius: 0px;
+    padding: 15px;
+    text-align: center;
+    /*box-shadow: 0 5px 15px rgba(0,0,0,0.1);*/
+    transition: 0.3s;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    /*border-radius: 50%;*/
+    object-fit: cover;
+    margin: 0 auto 10px;
+    border: 3px solid #30317a;
+}
+
+.name {
+    font-weight: bold;
+    color: #e91e63;
+    margin-top: 8px;
+    /*align-items: center;
+    justify-content: center;*/
+    text-align: center;
+     /* 画像と文字の間隔を明確に */
+    width: 100%;
+    text-align: center;
+
+    
+}
 
 @supports (font-family: "HarmonyOS Sans") {
   body {
@@ -24,7 +67,6 @@ body{
     max-width: 500px;
     margin: 20px auto;
     padding: 30px;
-    border-radius: 15px;
     text-align: center;
 }
 
@@ -57,7 +99,7 @@ a{
     max-width: 100%;
     margin: 20px auto;
     padding: 30px;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     
 }
 .CS-box{
@@ -69,6 +111,10 @@ a{
     
 }
 
-
+.topline{
+    text-decoration: underline;
+    text-decoration-color: lch(57.45% 70.46 289.5); /* 線の色 */
+    text-decoration-thickness: 3px; /* 線の太さ */
+}
 
 
