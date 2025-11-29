@@ -66,6 +66,7 @@ p{
     max-width: 20%;
     height: auto;
     display: block;
+    border: 3px solid #30317a;
 }
 h1{
     font-size: clamp(24px, 5vw, 32px);
@@ -78,12 +79,22 @@ a{
     color:rgb(58, 97, 134)
 }
 
+.back{
+    background-color: rgb(172, 101, 238);
+    color: white;
+    padding: 3px;
+    border-radius: 30px;
+}
+
+
+
 .side-box{
     background-color: rgb(255, 255, 255);
     max-width: 100%;
     margin: 20px auto;
     padding: 30px;
     border-radius: 0px;
+    border: 3px solid #ffffff;
     
 }
 .CS-box{
@@ -95,7 +106,14 @@ a{
     
 }
 
-
+.button{
+    background-color: rgb(168, 96, 226);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    border: 3px solid #ffffff;
+}
 .topline{
     text-decoration: underline;
     text-decoration-color: lch(57.45% 70.46 289.5); /* 線の色 */

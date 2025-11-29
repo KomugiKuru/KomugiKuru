@@ -13,9 +13,9 @@ body{
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    max-width: 1000px;
+    gap: 5px;
+    padding: 15px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     
@@ -24,7 +24,7 @@ body{
 .card {
     background: white;
     border-radius: 0px;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     /*box-shadow: 0 5px 15px rgba(0,0,0,0.1);*/
     transition: 0.3s;
@@ -37,6 +37,13 @@ body{
     object-fit: cover;
     margin: 0 auto 10px;
     border: 3px solid #30317a;
+}
+
+.back{
+    background-color: rgb(172, 101, 238);
+    color: white;
+    padding: 3px;
+    border-radius: 30px;
 }
 
 .name {
