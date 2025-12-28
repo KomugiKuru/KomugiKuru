@@ -80,10 +80,11 @@ a{
 }
 
 .back{
-    background-color: rgb(172, 101, 238);
+    background-color: rgb(255, 149, 250);
     color: white;
     padding: 3px;
     border-radius: 30px;
+    margin: 10px auto;
 }
 
 
@@ -107,7 +108,7 @@ a{
 }
 
 .button{
-    background-color: rgb(168, 96, 226);
+    background-color: rgb(255, 149, 250);
     margin: 10px auto;
     padding: 10px;
     border-radius: 30px;
