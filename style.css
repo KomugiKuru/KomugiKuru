@@ -124,4 +124,8 @@ a{
     text-decoration-thickness: 3px; /* 線の太さ */
 }
 
-
+.movie{
+    text-align: center;
+    border: 3px solid #30317a;
+    max-width: 100%;
+}
