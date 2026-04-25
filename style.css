@@ -1,5 +1,5 @@
 body{
-    background-color: #ffeff4;
+    background-color: #fffdef;
     font-family: "Hiragino Sans", /* iOSサンセリフ */
     "Hiragino Kaku Gothic ProN", /* iOSゴシック */
     "Helvetica Neue", 
@@ -144,4 +144,20 @@ a{
     text-align: center;
     border: 3px solid #30317a;
     max-width: 100%;
+}
+
+
+.accordion {
+  background-color: #eee;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.panel {
+  padding: 0 15px;
+  display: block;      /* 最初は隠す */
+  background-color: #f9f9f9;
+  overflow: hidden;
 }
