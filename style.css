@@ -8,7 +8,23 @@ body{
     
 }
 
+.UpBar{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin: 20px auto;
+    padding: 1%;
+}
 
+.URLbtn{
+     text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(185, 255, 191);
+    margin: 20px auto;
+    padding: 5px;
+    border: #30317a;
+    border-radius: 3px;
+}
 
 .grid {
     display: grid;
@@ -90,7 +106,7 @@ p{
     height: auto;
     display: block;
 }
-h1{
+.Bigtext{
     font-size: clamp(24px, 5vw, 32px);
     color:rgb(58, 97, 134)
 }
