@@ -1,0 +1,198 @@
+html{
+    height: 100%;
+    background: linear-gradient(rgb(50, 50, 104),#211e46);
+}
+
+
+body{
+    height: 110%;
+    background: linear-gradient(rgb(50, 50, 104),#211e46);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Hiragino Sans", /* iOSサンセリフ */
+    "Hiragino Kaku Gothic ProN", /* iOSゴシック */
+    "Helvetica Neue", 
+    Arial, "Noto Sans CJK JP","Roboto",   /* Android標準 */   /* Android標準日本語 */
+    sans-serif; /* フォールバック */
+    
+}
+
+
+.container{
+    display: block;
+}
+@media (min-width: 768px){
+    .container{
+        display: flex;
+    }
+}
+
+.UpBar{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin: 20px auto;
+    padding: 1%;
+}
+
+.URLbtn{
+     text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(185, 255, 191);
+    margin: 20px auto;
+    padding: 5px;
+    border: #30317a;
+    border-radius: 3px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 5px;
+    padding: 15px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+.card {
+    background: white;
+    border-radius: 0px;
+    padding: 5px;
+    text-align: center;
+    /*box-shadow: 0 5px 15px rgba(0,0,0,0.1);*/
+    transition: 0.3s;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    /*border-radius: 50%;*/
+    object-fit: cover;
+    margin: 0 auto 10px;
+    border: 3px solid #30317a;
+}
+
+.back{
+    background-color: rgb(172, 101, 238);
+    color: white;
+    padding: 3px;
+    border-radius: 30px;
+}
+
+.name {
+    font-weight: bold;
+    color: #e91e63;
+    margin-top: 8px;
+    /*align-items: center;
+    justify-content: center;*/
+    text-align: center;
+     /* 画像と文字の間隔を明確に */
+    width: 100%;
+    text-align: center;
+
+    
+}
+
+@supports (font-family: "HarmonyOS Sans") {
+  body {
+    font-family: 
+      "Noto Sans JP",
+      "Source Han Sans",
+      "HarmonyOS Sans",
+      sans-serif !important;
+  }
+}
+.content-box{
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+p{
+    color:rgb(163, 123, 70)
+}
+.illust{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.gazou{
+    max-width: 20%;
+    height: auto;
+    display: block;
+}
+.Bigtext{
+    font-size: clamp(24px, 5vw, 32px);
+    color:rgb(58, 97, 134)
+}
+h2{
+    color:rgb(58, 97, 134)
+}
+a{
+    color:rgb(58, 97, 134)
+}
+
+.side-box{
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 30px;
+    /*border-radius: 15px;*/
+    
+}
+.CS-box{
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+/*audio{
+    background-color: #000000;
+    max-width: 500px;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 15px;
+}*/
+.topline{
+    text-decoration: underline;
+    text-decoration-color: lch(57.45% 70.46 289.5); /* 線の色 */
+    text-decoration-thickness: 3px; /* 線の太さ */
+    text-align: center;
+}
+
+.urltop{
+    text-decoration: underline;
+    text-decoration-color: white; /* 線の色 */
+    text-decoration-thickness: 3px; /* 線の太さ */
+    text-align: center;
+}
+.movie{
+    text-align: center;
+    border: 3px solid #30317a;
+    max-width: 100%;
+}
+
+
+.accordion {
+  background-color: #eee;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.panel {
+  padding: 0 15px;
+  display: block;      /* 最初は隠す */
+  background-color: #f9f9f9;
+  overflow: hidden;
+}

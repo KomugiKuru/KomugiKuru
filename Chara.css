@@ -1,5 +1,9 @@
 body{
-    background-color: rgb(201, 248, 229);
+    height: 110%;
+    background: linear-gradient(rgb(222, 255, 242),rgb(206, 255, 247));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: "Hiragino Sans", /* iOSサンセリフ */
     "Hiragino Kaku Gothic ProN", /* iOSゴシック */
     "Helvetica Neue", 
